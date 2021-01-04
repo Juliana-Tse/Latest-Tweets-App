@@ -3,7 +3,7 @@
 ### Installation
 1. Download python3.7
 2. Download the project folder and go to the project root path
-3. Copy `.env` file into the directory
+3. Copy `env_updated` file into the project root path and rename it as `.env`
 4. Create a virtual environment
     ```
     python3 -m venv venv
