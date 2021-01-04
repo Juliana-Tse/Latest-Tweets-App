@@ -1,0 +1,21 @@
+<!doctype html>
+<form action="/" method="post" style="text-align: center; margin: 30px 0">
+    <label for="username"> Username: </label>
+    <input type="text" id="username" name="username">
+    <input type="submit" value="Submit">
+</form>
+{% if latestTweets %}
+    <ul id="tweets" style="width: 50%; margin-left: auto; margin-right: auto">
+    {% for tweet in latestTweets %}
+        <li style="margin: 20px 0px">
+            <div>Content: {{tweet.text}}</div>
+            <div style="margin-top: 10px; font-style: italic;">Created at: {{tweet.created_at}}</div>
+        </li>
+        <br/>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% if errorMessage %}
+<div style="text-align: center;">Sorry, there is an error in handling the request, please try again</div>
+<div style="text-align: center; margin-top: 20px;">Error details: {{ errorMessage }}</div>
+{% endif %}
