@@ -1,6 +1,6 @@
-### This project retrieves the latest 10 tweets from an authorized user.
+## This project retrieves the latest 10 tweets from an authorized user.
 
-#### Installation
+### Installation
 1. Download python3.7
 2. Download the project folder and go to the project root path
 3. Copy `.env` file into the directory
@@ -23,6 +23,6 @@
 
 Note: For Windows user, please refer to this [link](https://flask.palletsprojects.com/en/1.1.x/installation/#installation) for setting up virtual environment
 
-#### Testing
+### Testing
 1. Run ```pytest -v```
 
