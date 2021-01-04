@@ -21,7 +21,7 @@
     flask run
     ```
 
-Note: For Windows user, please refer to this [`link`](https://flask.palletsprojects.com/en/1.1.x/installation/#installation) for setting up virtual environment
+Note: For Windows user, please refer to this [link](https://flask.palletsprojects.com/en/1.1.x/installation/#installation) for setting up virtual environment
 
 #### Testing
 1. Run ```pytest -v```
